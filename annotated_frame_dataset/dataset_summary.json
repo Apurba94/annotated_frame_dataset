@@ -1,0 +1,13 @@
+{
+  "source_video": "annotated_people_height_with_audio.mp4",
+  "image_count": 5949,
+  "image_width": 848,
+  "image_height": 480,
+  "fps": 29.995,
+  "person_observation_count": 15817,
+  "frames_with_detections": 5706,
+  "frames_without_detections": 243,
+  "image_format": "JPEG",
+  "label_format": "YOLO normalized bounding boxes, class 0=person",
+  "height_measurement": "pixel bounding-box height in people_height_measurements.csv; metric height is blank without calibration"
+}

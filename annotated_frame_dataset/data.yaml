@@ -1,0 +1,8 @@
+# Dataset config for the derived person bounding-box labels.
+# The images contain burned-in annotations and should be treated as a visual
+# reference set, not as a clean training set.
+path: .  # run from annotated_frame_dataset/; images/ is not published (footage of real people)
+train: images
+val: images
+names:
+  0: person

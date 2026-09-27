@@ -1,0 +1,26 @@
+# Footage of real people is never committed: videos, frames and contact sheets.
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.png
+annotated_frame_dataset/images/
+
+# Duplicate copy of the top-level files.
+other video annotated/
+
+# The README supersedes the original write-up.
+Dynamic Person Detection and Human-Height Annotation.md
+
+# Python and model artefacts
+__pycache__/
+*.pyc
+.venv/
+*.pt
+runs/
+.ipynb_checkpoints/
+
+# Identical copy of ../people_height_measurements.csv
+annotated_frame_dataset/people_height_measurements.csv
